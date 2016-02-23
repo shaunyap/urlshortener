@@ -1,0 +1,13 @@
+extends layout
+
+head
+  title API BASEJUMP: #{title}
+block content
+  h1 API Basejump: #{title}
+  h3 User Stories
+  ul
+    li I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
+    li When I visit that shortened URL, it will redirect me to my original link.
+
+  h4 #{result}
+  h4 #{shortURL}
